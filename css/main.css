@@ -4,8 +4,8 @@ html, body { height: 100%; }
 
 @font-face
 {
-font-family: "PoetsenOne-Regular";
-src: url("../fonts/PoetsenOne-Regular.ttf") format('truetype');
+font-family: "PoetsenOne";
+src: url("../fonts/PoetsenOne.ttf") format('truetype');
 font-family: "lachata";
 src: url("../fonts/lachata.ttf") format('truetype');
 }
@@ -35,9 +35,9 @@ body{
 
   #main{ margin-left: auto; margin-right: auto; }
 
-  .webiscool{ font-family: PoetsenOne-Regular; font-weight: bold; }
+  .webiscool{ font-family: PoetsenOne; font-weight: bold; }
 
-  .title{ font-family: PoetsenOne-Regular; font-weight: bold; font-size: 50px; }
+  .title{ font-family: PoetsenOne; font-weight: bold; font-size: 50px; }
 
   .code{margin: 0 2px;
     padding: 0px 5px;
