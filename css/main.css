@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+
+html, body { height: 100%; }
+
+@font-face
+{
+font-family: "PoetsenOne-Regular";
+src: url("fonts/PoetsenOne-Regular.ttf") format('truetype');
+font-family: "lachata";
+src: url("fonts/lachata.ttf") format('truetype');
+}
+
+body{
+  font-family: lachata;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  }
+
+  h1{ font-size: 50px; }
+
+  a{ color: cornflowerblue; text-decoration: none; }
+
+  p{ margin-bottom: 20px; }
+
+  div{ border-radius:  3px; box-shadow:  1px 1px 12px #555; width: 80%; padding: 20px; }
+
+  ul{ margin-left: 10px; }
+
+  img{ border: none; max-width: 50px; }
+
+  #main{ margin-left: auto; margin-right: auto; }
+
+  .webiscool{ font-family: PoetsenOne-Regular; font-weight: bold; }
+
+  .title{ font-family: PoetsenOne-Regular; font-weight: bold; font-size: 50px; }
+
+  .code{margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
